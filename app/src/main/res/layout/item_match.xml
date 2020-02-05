@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    >
+  <data>
+    <variable
+        name="item"
+        type="com.hussein.youxeltask.data.model.Match"
+        />
+
+
+  </data>
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:background="@drawable/bg_item"
+      android:paddingBottom="@dimen/dimen14"
+      android:layout_marginBottom="@dimen/dimen5"
+      android:paddingTop="@dimen/dimen5">
+
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textColor="@color/white"
+      android:textSize="@dimen/text_size16"
+      android:textStyle="bold"
+      android:text="@{item.league_name}"
+      android:gravity="center_horizontal"
+      tools:text="premier league"
+      android:paddingBottom="@dimen/dimen5"
+
+      />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size16"
+        android:textStyle="bold"
+        android:text="@{item.scheduled}"
+        android:gravity="center_horizontal"
+        tools:text="10:00"
+        android:paddingBottom="@dimen/dimen5"
+
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size16"
+        android:textStyle="bold"
+        android:text="@{item.status}"
+        android:gravity="center_horizontal"
+        tools:text="IN PLAY"
+        android:paddingBottom="@dimen/dimen5"
+
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+      <TextView
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:textColor="@color/white"
+          android:textSize="@dimen/text_size12"
+          android:textStyle="bold"
+          android:text="@{item.home_name}"
+          android:gravity="center"
+          tools:text="home"
+          android:layout_weight="1"
+
+          />
+
+      <TextView
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:textColor="@color/white"
+          android:textSize="@dimen/text_size16"
+          android:textStyle="bold"
+          android:text="@{item.score}"
+          android:gravity="center_horizontal"
+          tools:text="1-1"
+          android:layout_weight="1"
+
+
+          />
+      <TextView
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:textColor="@color/white"
+          android:textSize="@dimen/text_size12"
+          android:textStyle="bold"
+          android:text="@{item.away_name}"
+          android:gravity="center"
+          tools:text="away"
+          android:layout_weight="1"
+
+          />
+
+
+
+    </LinearLayout>
+
+
+  </LinearLayout>
+
+</layout>

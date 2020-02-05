@@ -1,0 +1,18 @@
+<resources>
+  <string name="app_name">YouxelTask</string>
+
+
+  <string name="try_again">Something went wrong, please try again later</string>
+  <string name="no_internet">No internet connection please try again later</string>
+  <string name="some_error">Some error occurred</string>
+  <string name="reload">Reload</string>
+  <string name="hide">Hide</string>
+  <string name="no_image">No Image</string>
+  <string name="list_no_result">Sorry, There are no result here!</string>
+  <string name="success_remote_load">Get live matches successfully</string>
+
+  <!-- TODO: Remove or change this placeholder text -->
+  <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
